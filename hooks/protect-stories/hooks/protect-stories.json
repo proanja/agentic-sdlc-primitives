@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "bash ./scripts/protect-stories.sh",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

@@ -2,18 +2,9 @@ name: agentic-sdlc-primitives
 version: 1.0.0
 description: >
   A small collection of AI primitives for the agentic SDLC — reusable agents,
-  skills, instructions, and hooks. Run 'apm install' to activate the
-  AI Primitive Writer for contributing new primitives to this repository.
+  skills, instructions, and hooks.
 author: PRODYNA
 license: PROPRIETARY
 includes: auto
 targets:
   - copilot
-devDependencies:
-  apm:
-    - github.com/proanja/agentic-sdlc-primitives/skills/agent-writing
-    - github.com/proanja/agentic-sdlc-primitives/skills/hook-writing
-    - github.com/proanja/agentic-sdlc-primitives/skills/instruction-writing
-    - github.com/proanja/agentic-sdlc-primitives/skills/primitive-review
-    - github.com/proanja/agentic-sdlc-primitives/skills/skill-authoring
-    - github.com/proanja/agentic-sdlc-primitives/agents/specialist/ai-primitive-writer.agent.md

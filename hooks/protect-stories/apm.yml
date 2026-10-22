@@ -1,0 +1,5 @@
+name: protect-stories
+version: 1.0.0
+description: >
+  Bash hook (needs jq) that blocks agent edits to stories/ and .github/hooks/.
+  Terminal commands need human approval.
