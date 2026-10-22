@@ -1,0 +1,16 @@
+# APM
+apm_modules/
+build/
+.agents/
+.github/agents/
+.github/skills/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
