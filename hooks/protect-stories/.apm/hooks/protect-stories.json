@@ -4,7 +4,8 @@
     "preToolUse": [
       {
         "type": "command",
-        "command": "bash ./scripts/protect-stories.sh",
+        "bash": "bash ./scripts/protect-stories.sh",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/protect-stories.ps1",
         "timeoutSec": 10
       }
     ]

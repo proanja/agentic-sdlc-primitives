@@ -46,10 +46,10 @@ apm.yml            Package manifest
 | Primitive | Description |
 |-----------|-------------|
 | [Testing rules](instructions/testing/tests.instructions.md) | Scoped rules for test files, including exact boundaries and controllable time |
-| [Protect stories](hooks/protect-stories/) | Bash hook that blocks recognized edits to `stories/` and `.github/hooks/`, and asks for terminal approval |
+| [Protect stories](hooks/protect-stories/) | Hook (Bash and PowerShell) that blocks recognized edits to `stories/` and `.github/hooks/`, and asks for terminal approval |
 
 Install the hook as a package with `apm install github.com/proanja/agentic-sdlc-primitives/hooks/protect-stories`.
-It requires Bash and `jq`. It stops the agent from editing these files by accident, but it can't prevent every change, for example one made through the terminal.
+It runs with Bash and `jq` on macOS and Linux, and with PowerShell on Windows. It stops the agent from editing these files by accident, but it can't prevent every change, for example one made through the terminal.
 
 ## Using primitives in your project
 
